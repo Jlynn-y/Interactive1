@@ -1,0 +1,288 @@
+<html>
+
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+    body {
+      background-color: grey;
+      font-family: 'Kaisei Decol', serif;
+    }
+
+    .title {
+      position: relative;
+      text-decoration: overline underline;
+      font-size: 100px;
+      font-family: 'Bebas Neue', cursive;
+      color: white;
+    }
+
+    .red {
+      width: 290px;
+      height: 460px;
+      background-color: #ff5722;
+      position: relative;
+      top: 68px;
+      font-size: 20px;
+      line-height: 35px;
+      padding-top: 160;
+      padding-left: 37px;
+      padding-bottom: 237px;
+      padding-right: 20px;
+      left: -8px;
+      letter-spacing: 2px;
+    }
+
+
+    .orange {
+      width: 290px;
+      height: 460px;
+      background-color: orange;
+      position: relative;
+      top: -546px;
+      left: 346px;
+      font-size: 20px;
+      line-height: 35px;
+      /* padding-left: 35px; */
+      padding-right: 20px;
+      padding-top: 160px;
+      padding-bottom: 250px;
+      padding-left: 37px;
+      letter-spacing: 2px;
+    }
+
+    .yellow {
+      width: 290px;
+      height: 460px;
+      background-color: yellow;
+      position: relative;
+      top: -1118px;
+      left: 700px;
+      font-size: 20px;
+      line-height: 35px;
+      /* padding: 44px; */
+      padding-left: 37px;
+      padding-top: 160px;
+      padding-bottom: 160px;
+      padding-right: 20px;
+      letter-spacing: 2px;
+    }
+
+    .green {
+      width: 290px;
+      height: 460px;
+      background-color: #009688;
+      position: relative;
+      top: -1683px;
+      left: 1055px;
+      font-size: 20px;
+      line-height: 35px;
+      padding-top: 160px;
+      padding-bottom: 160px;
+      padding-right: 20px;
+      padding-left: 37px;
+      letter-spacing: 2px;
+    }
+
+    .zuo {
+      background-color: purple;
+/* margin-right: 260px; */
+padding-top: 20px;
+padding-bottom: 20px;
+position: relative;
+    top: -1510px;
+    width: 115px;
+    height: 248px;
+    left: 38px;
+    left: 118px;
+    transition: 1s;
+    transform: rotate(-28deg);
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 95px;
+    padding-bottom: 96px;
+    border: 2px solid black;
+    font-family: 'Cookie', cursive;
+    font-size: 22px;
+    }
+
+    .zuo:hover {
+      background-color: orange;
+      transform: scale(1.3);
+      z-index: 90;
+    }
+
+    .blank {
+      position: relative;
+  top: -1952px;
+  width: 115px;
+  height: 388px;
+  left: 606px;
+  background-color: #009688;
+  transition: 1s;
+  padding-top: 54px;
+  padding-left: 10px;
+  padding-right: 5px;
+  /* transform: rotate(-30deg); */
+  transform: rotate(28deg);
+  border: 2px solid black;
+  font-family: 'Cookie', cursive;
+  font-size: 22px;
+    }
+
+    .blank:hover {
+      background-color: pink;
+      transform: scale(1.3);
+      z-index: 90;
+    }
+
+    .right {
+      background-color: orange;
+    border: 2px solid black;
+    position: relative;
+    top: -2067px;
+    width: 211px;
+    height: 55px;
+    left: 380px;
+    transform: rotate(55deg);
+    padding: 19px;
+    transition: 1s;
+    font-family: 'Cookie', cursive;
+    font-size: 22px;
+    }
+
+    .right:hover {
+      background-color: pink;
+      transform: scale(1.3);
+      z-index: 90;
+    }
+
+    .left {
+      background-color: pink;
+  position: relative;
+  top: -2159px;
+  left: 216px;
+  width: 224px;
+  height: 67px;
+  transition: 1s;
+  padding: 11px;
+  transform: rotate(-54deg);
+  border: 2px solid black;
+  font-family: 'Cookie', cursive;
+  font-size: 22px;
+    }
+
+    .left:hover {
+      background-color: #009688;
+      transform: scale(1.3);
+      z-index: 90;
+    }
+
+    .none {
+      background-color: pink;
+position: relative;
+top: -2594px;
+left: 1031px;
+width: 360px;
+height: 40px;
+transition: 2s;
+padding-top: 10px;
+padding-bottom: 10px;
+font-family: 'Cookie', cursive;
+font-size: 22px;
+border: 3px solid black;
+    }
+
+    .none:hover {
+      background-color: yellow;
+      transform: scale(2);
+      z-index: 90;
+    }
+
+    .straight {
+      background-color: #ff5722;
+        position: relative;
+        top: -2660px;
+        left: 920px;
+        width: 89px;
+        height: 480px;
+        transition: 2s;
+        font-family: 'Cookie', cursive;
+        font-size: 22px;
+        padding-left: 10px;
+        padding-top: 40px;
+        border: 3px solid black;
+    }
+
+    .straight:hover {
+      background-color: yellow;
+      transform: scale(2);
+      z-index: 90;
+    }
+
+    .center {
+      background-color: lightblue;
+      position: relative;
+      top: -2965px;
+      left: 1031px;
+      width: 320px;
+      height: 51px;
+      transition: 2s;
+      font-family: 'Cookie', cursive;
+      font-size: 22px;
+      border: 3px solid black;
+    }
+
+    .center:hover {
+      background-color: #009688;
+      transform: scale(2);
+      z-index: 90;
+    }
+
+    .down {
+      background-color: yellow;
+      position: relative;
+      top: -2783px;
+      left: 1031px;
+      width: 358px;
+      height: 60px;
+      transition: 2s;
+      font-family: 'Cookie', cursive;
+      font-size: 22px;
+      border: 3px solid black;
+    }
+
+    .down:hover {
+      background-color: purple;
+      transform: scale(2);
+      z-index: 90;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="title">The Web We Have to Save</div>
+  <div class="red">Blogs were gold and bloggers were rock stars back in 2008 when I was arrested. At that point, and despite the fact the state was blocking access to my blog from inside Iran, I had an audience of around 20,000 people every day.
+    Everybody I linked to would face a sudden and serious jump in traffic: I could empower or embarrass anyone I wanted. </div>
+  <div class="orange">People used to carefully read my posts and leave lots of relevant comments, and even many of those who strongly disagreed with me still came to read. Other blogs linked to mine to discuss what I was saying. I felt like a king.
+    The iPhone was a little over a year old by then, but smartphones were still mostly used to make phone calls and send short messages,
+  </div>
+  <div class="yellow"> handle emails, and surf the web. There were no real apps, certainly not how we think of them today. There was no Instagram, no SnapChat, no Viber, no WhatsApp. Instead, there was the web, and on the web, there were blogs: the
+    best place to find alternative thoughts, news and analysis. They were my life.</div>
+  <div class="green">It had all started with 9/11. I was in Toronto, and my father had just arrived from Tehran for a visit. We were having breakfast when the second plane hit the World Trade Center. I was puzzled and confused and, looking for
+    insights and explanations, I came across blogs. </div>
+  <div class="zuo"> Once I read a few, I thought: This is it, I should start one, and encourage all Iranians to start blogging as well. So, using Notepad on Windows, I started experimenting. </div>
+  <div class="blank">Soon, hundreds and thousands of Iranians made it one of the top 5 nations by the number of blogs,and I was proud to have a role in this unprecedented democratization of writing. </div>
+  <div class="right">Then, on November 5, 2001, I published a step-to-step guide on how to start a blog. </div>
+  <div class="left">That sparked something that was later called a blogging revolution: </div>
+  <div class="none"> Those days, I used to keep a list of all blogs in Persian and, for a while, </div>
+  <div class="straight">Soon I ended up writing on hoder.com, using Blogger’s publishing platform before Google bought it. I was the first person any new blogger in Iran would contact, so they could get on the list. </div>
+  <div class="center"> That’s why they called me “the blogfather” in my mid-twenties,</div>
+  <div class="down">it was a silly nickname, but at least it hinted at how much I cared. </div>
+
+
+</body>
+
+</html>
